@@ -13,33 +13,32 @@ class FrontCardView: UIViewController, UITextFieldDelegate {
     
 
     @IBOutlet weak var titleTextField: UITextField!
+    
+    
+    let swipeRec = UISwipeGestureRecognizer()
+
 
     override func viewDidLoad() {
       super.viewDidLoad()
-
+        swipeRec.direction = .Left
+        swipeRec.addTarget(self, action: "segueOnSwipe")
+        self.view.addGestureRecognizer(swipeRec)
     }
     
-   
- 
-    @IBAction func swiped(sender: AnyObject) {
-        print("swipped")
-    }
-
     
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
         titleTextField.resignFirstResponder()
-
     }
     
+    func segueOnSwipe(){
+        self.performSegueWithIdentifier("showBack", sender: self)
+     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "showBack"
-        {
-          if let destinationVC = segue.destinationViewController as? BackCardView{
-            print("swipe trigger")
-            }
-        }
-    }
+//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+//        
+//        let back = segue.destinationViewController as! BackCardView
+//        
+//    }
     
     deinit{
         print("frontView was deinit")
