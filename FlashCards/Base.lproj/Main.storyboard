@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Vmb-Vg-E38">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Front Card View-->
+        <scene sceneID="s1f-vf-g35">
+            <objects>
+                <viewController id="Vmb-Vg-E38" customClass="FrontCardView" customModule="FlashCards" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lME-6D-JvL"/>
+                        <viewControllerLayoutGuide type="bottom" id="aeC-Do-fDo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hfU-EQ-LAL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Title Here" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jqy-4J-jSG">
+                                <rect key="frame" x="20" y="267" width="560" height="66"/>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="trailing" secondItem="hfU-EQ-LAL" secondAttribute="trailingMargin" id="14C-D3-F0m"/>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="top" secondItem="lME-6D-JvL" secondAttribute="bottom" constant="247" id="Emj-ey-Sdg"/>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="trailing" secondItem="hfU-EQ-LAL" secondAttribute="trailingMargin" id="Ezg-ni-oE9"/>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="centerY" secondItem="hfU-EQ-LAL" secondAttribute="centerY" id="FQc-tV-pl7"/>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="leading" secondItem="hfU-EQ-LAL" secondAttribute="leadingMargin" id="HCf-yq-ed3"/>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="leading" secondItem="hfU-EQ-LAL" secondAttribute="leadingMargin" id="K2A-5y-z7R"/>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="centerY" secondItem="hfU-EQ-LAL" secondAttribute="centerY" id="U4k-kf-Ggc"/>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="centerY" secondItem="hfU-EQ-LAL" secondAttribute="centerY" id="W6x-g4-dZS"/>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="trailing" secondItem="hfU-EQ-LAL" secondAttribute="trailingMargin" id="WgL-Zm-i47"/>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="trailing" secondItem="hfU-EQ-LAL" secondAttribute="trailingMargin" id="gbO-Ve-D3j"/>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="top" secondItem="lME-6D-JvL" secondAttribute="bottom" constant="247" id="jY6-lD-r6Q"/>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="leading" secondItem="hfU-EQ-LAL" secondAttribute="leadingMargin" id="qOP-88-leo"/>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="centerY" secondItem="hfU-EQ-LAL" secondAttribute="centerY" id="rXo-N7-TOx"/>
+                            <constraint firstItem="Jqy-4J-jSG" firstAttribute="leading" secondItem="hfU-EQ-LAL" secondAttribute="leadingMargin" id="yWE-Ys-y32"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="14C-D3-F0m"/>
+                                <exclude reference="FQc-tV-pl7"/>
+                                <exclude reference="HCf-yq-ed3"/>
+                                <exclude reference="U4k-kf-Ggc"/>
+                                <exclude reference="WgL-Zm-i47"/>
+                                <exclude reference="gbO-Ve-D3j"/>
+                                <exclude reference="jY6-lD-r6Q"/>
+                                <exclude reference="qOP-88-leo"/>
+                                <exclude reference="rXo-N7-TOx"/>
+                                <exclude reference="yWE-Ys-y32"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="Emj-ey-Sdg"/>
+                                <exclude reference="Ezg-ni-oE9"/>
+                                <include reference="HCf-yq-ed3"/>
+                                <exclude reference="K2A-5y-z7R"/>
+                                <exclude reference="W6x-g4-dZS"/>
+                                <include reference="WgL-Zm-i47"/>
+                                <include reference="rXo-N7-TOx"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="Emj-ey-Sdg"/>
+                                <exclude reference="Ezg-ni-oE9"/>
+                                <exclude reference="K2A-5y-z7R"/>
+                                <include reference="U4k-kf-Ggc"/>
+                                <exclude reference="W6x-g4-dZS"/>
+                                <include reference="gbO-Ve-D3j"/>
+                                <include reference="jY6-lD-r6Q"/>
+                                <include reference="yWE-Ys-y32"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="14C-D3-F0m"/>
+                                <include reference="FQc-tV-pl7"/>
+                                <exclude reference="HCf-yq-ed3"/>
+                                <exclude reference="WgL-Zm-i47"/>
+                                <include reference="qOP-88-leo"/>
+                                <exclude reference="rXo-N7-TOx"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="D6l-Wt-eRu" appends="YES" id="aes-XB-Zaw"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="titleTextField" destination="Jqy-4J-jSG" id="whb-zD-gqK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NSd-xi-ARK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="D6l-Wt-eRu">
+                    <connections>
+                        <action selector="swiped:" destination="Vmb-Vg-E38" id="m4S-Ik-xgb"/>
+                        <segue destination="K84-VF-gW7" kind="show" identifier="showBack" id="ZnI-4O-u6Z"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="705" y="145"/>
+        </scene>
+        <!--Back Card View-->
+        <scene sceneID="vKC-CF-7Vn">
+            <objects>
+                <viewController id="K84-VF-gW7" customClass="BackCardView" customModule="FlashCards" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F8h-MU-05Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="wXb-1o-aum"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vIN-ni-cHs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lines" translatesAutoresizingMaskIntoConstraints="NO" id="1vv-yw-mH3">
+                                <rect key="frame" x="20" y="28" width="560" height="552"/>
+                                <animations/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" text="Answere goes here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="idj-be-EhS">
+                                <rect key="frame" x="20" y="28" width="560" height="552"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="idj-be-EhS" firstAttribute="leading" secondItem="vIN-ni-cHs" secondAttribute="leadingMargin" id="CdV-ie-i0A"/>
+                            <constraint firstItem="idj-be-EhS" firstAttribute="trailing" secondItem="1vv-yw-mH3" secondAttribute="trailing" id="FvY-Zl-xE2"/>
+                            <constraint firstAttribute="bottom" secondItem="idj-be-EhS" secondAttribute="bottom" constant="20" symbolic="YES" id="J5a-ah-gq1"/>
+                            <constraint firstItem="idj-be-EhS" firstAttribute="trailing" secondItem="vIN-ni-cHs" secondAttribute="trailingMargin" id="Pe4-fx-53p"/>
+                            <constraint firstItem="1vv-yw-mH3" firstAttribute="bottom" secondItem="idj-be-EhS" secondAttribute="bottom" id="V3d-dM-sF8"/>
+                            <constraint firstItem="idj-be-EhS" firstAttribute="top" secondItem="F8h-MU-05Z" secondAttribute="bottom" constant="8" symbolic="YES" id="VmF-P0-UgM"/>
+                            <constraint firstItem="idj-be-EhS" firstAttribute="top" secondItem="1vv-yw-mH3" secondAttribute="top" id="Vmg-Pe-VjI"/>
+                            <constraint firstItem="idj-be-EhS" firstAttribute="leading" secondItem="1vv-yw-mH3" secondAttribute="leading" id="YAS-bf-ocd"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="wjV-eN-HTv" appends="YES" id="Mr2-OY-drt"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VdZ-MV-weG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer delaysTouchesBegan="YES" minimumNumberOfTouches="1" maximumNumberOfTouches="1" id="wjV-eN-HTv">
+                    <rectEdge key="edges" left="YES"/>
+                    <connections>
+                        <action selector="swipedFromEdge:" destination="K84-VF-gW7" id="77Z-hq-q0x"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1395" y="145"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lines" width="798" height="527"/>
+    </resources>
+</document>
