@@ -38,6 +38,7 @@ class BackCardView: UIViewController, UITextViewDelegate {
     
     func segueOnSwipe(){
         print("swiped from back")
+        self.navigationController?.popToRootViewControllerAnimated(true)
      }
  
 

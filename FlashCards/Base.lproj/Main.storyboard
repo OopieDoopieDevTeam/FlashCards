@@ -60,12 +60,11 @@
                     <navigationItem key="navigationItem" id="weF-CB-4fD"/>
                     <connections>
                         <outlet property="titleTextField" destination="Jqy-4J-jSG" id="whb-zD-gqK"/>
-                        <segue destination="K84-VF-gW7" kind="presentation" identifier="showBack" modalTransitionStyle="flipHorizontal" id="28D-Eo-ryX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NSd-xi-ARK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1396" y="145"/>
+            <point key="canvasLocation" x="1394" y="140"/>
         </scene>
         <!--Back Card View-->
         <scene sceneID="vKC-CF-7Vn">
@@ -135,15 +134,17 @@
                     <navigationItem key="navigationItem" id="bbh-qk-P4K"/>
                     <connections>
                         <outlet property="textView" destination="idj-be-EhS" id="uMv-JH-aaD"/>
+                        <segue destination="Vmb-Vg-E38" kind="presentation" identifier="showBack" modalTransitionStyle="flipHorizontal" id="Ca4-p0-YWu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VdZ-MV-weG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2079" y="145"/>
+            <point key="canvasLocation" x="841" y="922"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="I7f-P4-VQq">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GhX-5u-5gD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OIO-YQ-npI" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vrV-WL-IDV">
@@ -156,7 +157,6 @@
                         <segue destination="Vmb-Vg-E38" kind="relationship" relationship="rootViewController" id="ABg-Zy-MRI"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GhX-5u-5gD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="705" y="145"/>
         </scene>
@@ -164,4 +164,7 @@
     <resources>
         <image name="lines" width="798" height="527"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ca4-p0-YWu"/>
+    </inferredMetricsTieBreakers>
 </document>

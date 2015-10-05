@@ -31,7 +31,8 @@ class FrontCardView: UIViewController, UITextFieldDelegate {
     }
     
     func segueOnSwipe(){
-        self.performSegueWithIdentifier("showBack", sender: self)
+        self.navigationController?.performSegueWithIdentifier("showBack", sender: self)
+       // self.performSegueWithIdentifier("showBack", sender: self)
      }
     
 //    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
