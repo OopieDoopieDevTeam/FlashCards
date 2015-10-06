@@ -12,6 +12,7 @@
 		A17974431BBB816600271F7E /* ODFlashCardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17974421BBB816600271F7E /* ODFlashCardStack.swift */; settings = {ASSET_TAGS = (); }; };
 		A1C81B0F1BBC5BA800B03412 /* FrontCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C81B0E1BBC5BA800B03412 /* FrontCardView.swift */; settings = {ASSET_TAGS = (); }; };
 		A1C81B111BBC60C700B03412 /* BackCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C81B101BBC60C700B03412 /* BackCardView.swift */; settings = {ASSET_TAGS = (); }; };
+		A1E08A181BC39E0B001F54EB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E08A171BC39E0B001F54EB /* UIColorExtension.swift */; settings = {ASSET_TAGS = (); }; };
 		A1E992AC1BC3983500669F90 /* CardStacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E992AB1BC3983500669F90 /* CardStacksView.swift */; settings = {ASSET_TAGS = (); }; };
 		A1FF01EC1BBADDA90011951F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF01EB1BBADDA90011951F /* AppDelegate.swift */; };
 		A1FF01EE1BBADDA90011951F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF01ED1BBADDA90011951F /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 		A17974421BBB816600271F7E /* ODFlashCardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODFlashCardStack.swift; sourceTree = "<group>"; };
 		A1C81B0E1BBC5BA800B03412 /* FrontCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontCardView.swift; sourceTree = "<group>"; };
 		A1C81B101BBC60C700B03412 /* BackCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackCardView.swift; sourceTree = "<group>"; };
+		A1E08A171BC39E0B001F54EB /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		A1E992AB1BC3983500669F90 /* CardStacksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStacksView.swift; sourceTree = "<group>"; };
 		A1F6834C1BBADFD600501761 /* FlashCards-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashCards-Bridging-Header.h"; sourceTree = "<group>"; };
 		A1FF01E81BBADDA90011951F /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,7 @@
 				A1C81B101BBC60C700B03412 /* BackCardView.swift */,
 				A17974401BBAE34100271F7E /* ODFlashCard.swift */,
 				A17974421BBB816600271F7E /* ODFlashCardStack.swift */,
+				A1E08A171BC39E0B001F54EB /* UIColorExtension.swift */,
 				A1FF01EF1BBADDA90011951F /* Main.storyboard */,
 				A1FF01F21BBADDA90011951F /* Assets.xcassets */,
 				A1FF01F41BBADDA90011951F /* LaunchScreen.storyboard */,
@@ -352,6 +355,7 @@
 				A17974411BBAE34100271F7E /* ODFlashCard.swift in Sources */,
 				A1E992AC1BC3983500669F90 /* CardStacksView.swift in Sources */,
 				A1C81B111BBC60C700B03412 /* BackCardView.swift in Sources */,
+				A1E08A181BC39E0B001F54EB /* UIColorExtension.swift in Sources */,
 				A1FF01EE1BBADDA90011951F /* ViewController.swift in Sources */,
 				A17974431BBB816600271F7E /* ODFlashCardStack.swift in Sources */,
 				A1FF01EC1BBADDA90011951F /* AppDelegate.swift in Sources */,
