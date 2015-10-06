@@ -12,6 +12,7 @@
 		A17974431BBB816600271F7E /* ODFlashCardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17974421BBB816600271F7E /* ODFlashCardStack.swift */; settings = {ASSET_TAGS = (); }; };
 		A1C81B0F1BBC5BA800B03412 /* FrontCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C81B0E1BBC5BA800B03412 /* FrontCardView.swift */; settings = {ASSET_TAGS = (); }; };
 		A1C81B111BBC60C700B03412 /* BackCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C81B101BBC60C700B03412 /* BackCardView.swift */; settings = {ASSET_TAGS = (); }; };
+		A1E992AC1BC3983500669F90 /* CardStacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E992AB1BC3983500669F90 /* CardStacksView.swift */; settings = {ASSET_TAGS = (); }; };
 		A1FF01EC1BBADDA90011951F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF01EB1BBADDA90011951F /* AppDelegate.swift */; };
 		A1FF01EE1BBADDA90011951F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF01ED1BBADDA90011951F /* ViewController.swift */; };
 		A1FF01F11BBADDA90011951F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FF01EF1BBADDA90011951F /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		A17974421BBB816600271F7E /* ODFlashCardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODFlashCardStack.swift; sourceTree = "<group>"; };
 		A1C81B0E1BBC5BA800B03412 /* FrontCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontCardView.swift; sourceTree = "<group>"; };
 		A1C81B101BBC60C700B03412 /* BackCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackCardView.swift; sourceTree = "<group>"; };
+		A1E992AB1BC3983500669F90 /* CardStacksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStacksView.swift; sourceTree = "<group>"; };
 		A1F6834C1BBADFD600501761 /* FlashCards-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashCards-Bridging-Header.h"; sourceTree = "<group>"; };
 		A1FF01E81BBADDA90011951F /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FF01EB1BBADDA90011951F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				A1FF01EB1BBADDA90011951F /* AppDelegate.swift */,
+				A1E992AB1BC3983500669F90 /* CardStacksView.swift */,
 				A1FF01ED1BBADDA90011951F /* ViewController.swift */,
 				A1C81B0E1BBC5BA800B03412 /* FrontCardView.swift */,
 				A1C81B101BBC60C700B03412 /* BackCardView.swift */,
@@ -347,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17974411BBAE34100271F7E /* ODFlashCard.swift in Sources */,
+				A1E992AC1BC3983500669F90 /* CardStacksView.swift in Sources */,
 				A1C81B111BBC60C700B03412 /* BackCardView.swift in Sources */,
 				A1FF01EE1BBADDA90011951F /* ViewController.swift in Sources */,
 				A17974431BBB816600271F7E /* ODFlashCardStack.swift in Sources */,
@@ -497,7 +501,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FlashCards/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oopiedoopie.FlashCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,7 +518,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FlashCards/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oopiedoopie.FlashCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
